@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — TelemetryX</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --card: #141414;
+      --text: #e8e8e8;
+      --muted: #9a9a9a;
+      --accent: #00e5ff;
+      --border: #262626;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+    header { text-align: center; margin-bottom: 48px; }
+    header .logo { font-size: 44px; }
+    h1 { font-size: 28px; margin: 12px 0 4px; letter-spacing: 0.5px; }
+    .updated { color: var(--muted); font-size: 14px; margin: 0; }
+    h2 {
+      font-size: 18px;
+      margin: 40px 0 8px;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    p, li { color: var(--text); font-size: 15.5px; }
+    .muted { color: var(--muted); }
+    ul { padding-left: 22px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 20px 0;
+    }
+    footer {
+      margin-top: 56px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13.5px;
+      text-align: center;
+    }
+    a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo">📊</div>
+    <h1>TelemetryX</h1>
+    <p class="updated">Privacy Policy — Last updated: October 5, 2026</p>
+  </header>
+
+  <h2>1. Overview</h2>
+  <p>
+    TelemetryX ("the App") is a mobile application that visualizes in-vehicle
+    telemetry in real time: G-force (G-G diagram), speed, 0-100/200/400&nbsp;km/h
+    sprint timing, and GPS route tracking. This policy explains how the App
+    handles your data.
+  </p>
+  <div class="card">
+    <p style="margin:0"><strong>The short version:</strong> all data is created
+    and stored <strong>on your device only</strong>. The App has no backend
+    server, no accounts, no analytics, and no advertising. Nothing you record is
+    ever uploaded or shared with us or anyone else.</p>
+  </div>
+
+  <h2>2. Data the App Uses</h2>
+  <ul>
+    <li>
+      <strong>Precise location (GPS).</strong> Required to record your route and
+      cross-check speed. Access is requested only while you use the App and is
+      <strong>not</strong> used in the background.
+    </li>
+    <li>
+      <strong>On-device motion sensor data.</strong> Accelerometer readings are
+      processed locally to compute G-force and assist speed estimation. Sensor
+      data never leaves your device.
+    </li>
+  </ul>
+
+  <h2>3. Google Play Services (Location)</h2>
+  <p>
+    On devices with Google Play Services, the App obtains location through
+    Google's Fused Location API. Google's location service may use Wi-Fi and
+    cell tower signals to help determine your position; that signal processing
+    is handled by Google on the device platform and is governed by
+    <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy
+    Policy</a>. TelemetryX does not access, collect, or receive that data — we
+    only receive the resulting position on your device.
+  </p>
+
+  <h2>4. Data We Do NOT Collect</h2>
+  <p>The App contains none of the following:</p>
+  <ul>
+    <li>No analytics or usage tracking</li>
+    <li>No advertising or ad identifiers</li>
+    <li>No crash reporting or telemetry upload</li>
+    <li>No user accounts, login, or personal identification</li>
+    <li>No data synchronization or cloud storage</li>
+  </ul>
+  <p>
+    Your recorded sessions (speed traces, G-force data, GPS routes, sprint
+    times) exist only in the App's local storage on your device.
+  </p>
+
+  <h2>5. Your Choices and Rights</h2>
+  <ul>
+    <li>
+      <strong>Revoke location access:</strong> Android&nbsp;Settings → Apps →
+      TelemetryX → Permissions → Location. Without it, route tracking and GPS
+      speed are unavailable; G-force display still works.
+    </li>
+    <li>
+      <strong>Delete your data:</strong> Settings → "Clear all sessions" removes
+      everything stored in the App.
+    </li>
+    <li>
+      <strong>Take your data with you:</strong> export any session as GPX or
+      JSON at any time.
+    </li>
+    <li>
+      <strong>Uninstall:</strong> removing the App deletes all locally stored
+      data.
+    </li>
+  </ul>
+
+  <h2>6. Children</h2>
+  <p>
+    The App is not directed at children under 13, and we do not knowingly
+    collect personal information from children. Because the App collects no
+    personal information at all (see sections 2 and 4), there is nothing for us
+    to hold on a child's behalf.
+  </p>
+
+  <h2>7. Changes to This Policy</h2>
+  <p>
+    We may update this policy as the App evolves. Material changes will be
+    indicated by a new "Last updated" date above. Continued use of the App
+    after changes constitutes acceptance of the updated policy.
+  </p>
+
+  <h2>8. Contact</h2>
+  <p>
+    Questions or requests about this policy? Email
+    <a href="mailto:YOUR_EMAIL@EXAMPLE.COM">YOUR_EMAIL@EXAMPLE.COM</a>.
+  </p>
+
+  <footer>
+    TelemetryX — personal vehicle telemetry, on your device.
+  </footer>
+</main>
+</body>
+</html>
